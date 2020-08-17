@@ -1,14 +1,13 @@
 package com.mi.administrador.web.flux.app.model.document;
 
-import java.time.LocalDate;
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.validation.constraints.NotEmpty;
+import java.time.LocalDate;
 
-@Document(collection = "renters")
-public class Renter {
+@Document(collection = "owners")
+public class Owner {
 
 	@Id
 	private String id;
@@ -21,12 +20,12 @@ public class Renter {
 
 
 	private String email;
-	
+
 	private LocalDate createAt;
-	
-	public Renter() {}
-	
-	public Renter(String nombre, String apellido, String email) {
+
+	public Owner() {}
+
+	public Owner(String nombre, String apellido, String email) {
 		this.name = nombre;
 		this.lastName = apellido;
 		this.email = email;
