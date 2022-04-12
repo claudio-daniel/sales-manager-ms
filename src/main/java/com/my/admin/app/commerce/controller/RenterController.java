@@ -1,7 +1,7 @@
 package com.my.admin.app.commerce.controller;
 
 import com.my.admin.app.commerce.model.document.Renter;
-import com.my.admin.app.commerce.model.service.RenterService;
+import com.my.admin.app.commerce.service.RenterService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

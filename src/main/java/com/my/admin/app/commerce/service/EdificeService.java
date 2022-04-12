@@ -1,10 +1,10 @@
-package com.my.admin.app.commerce.model.service;
+package com.my.admin.app.commerce.service;
 
 import com.my.admin.app.commerce.model.dao.ConsumedServicesDao;
 import com.my.admin.app.commerce.model.dao.EdificeDao;
 import com.my.admin.app.commerce.model.document.ConsumedService;
 import com.my.admin.app.commerce.model.document.Edifice;
-import com.my.admin.app.commerce.model.response.EdificeResponse;
+import com.my.admin.app.commerce.model.api.response.EdificeResponse;
 import com.my.admin.app.commerce.model.transformer.EdificeTransformer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.ReactiveMongoTemplate;

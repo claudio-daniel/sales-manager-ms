@@ -1,7 +1,7 @@
 package com.my.admin.app.commerce.model.transformer;
 
 import com.my.admin.app.commerce.model.document.Edifice;
-import com.my.admin.app.commerce.model.response.EdificeResponse;
+import com.my.admin.app.commerce.model.api.response.EdificeResponse;
 import org.springframework.stereotype.Component;
 
 import java.util.function.Function;

@@ -1,4 +1,4 @@
-package com.my.admin.app.commerce.model.service;
+package com.my.admin.app.commerce.service;
 
 import com.my.admin.app.commerce.model.dao.RenterDao;
 import com.my.admin.app.commerce.model.document.Renter;

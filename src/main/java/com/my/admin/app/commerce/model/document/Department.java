@@ -1,5 +1,6 @@
 package com.my.admin.app.commerce.model.document;
 
+import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -8,6 +9,7 @@ import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 @Document(collection = "department")
+@Data
 public class Department {
     @Id
     private String id;
@@ -31,47 +33,4 @@ public class Department {
     private Integer quantityRooms;
 
     private LocalDate createAt;
-
-    public Department() {
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Renter getRenter() {
-        return renter;
-    }
-
-    public void setRenter(Renter renter) {
-        this.renter = renter;
-    }
-
-    public Integer getQuantityRooms() {
-        return quantityRooms;
-    }
-
-    public void setQuantityRooms(Integer quantityRooms) {
-        this.quantityRooms = quantityRooms;
-    }
-
-    public LocalDate getCreateAt() {
-        return createAt;
-    }
-
-    public void setCreateAt(LocalDate createAt) {
-        this.createAt = createAt;
-    }
 }

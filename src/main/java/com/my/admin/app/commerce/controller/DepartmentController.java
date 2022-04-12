@@ -1,7 +1,7 @@
 package com.my.admin.app.commerce.controller;
 
 import com.my.admin.app.commerce.model.document.Department;
-import com.my.admin.app.commerce.model.service.DepartmentService;
+import com.my.admin.app.commerce.service.DepartmentService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

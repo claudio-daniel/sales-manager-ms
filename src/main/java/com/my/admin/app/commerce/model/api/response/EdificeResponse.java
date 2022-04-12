@@ -1,4 +1,4 @@
-package com.my.admin.app.commerce.model.response;
+package com.my.admin.app.commerce.model.api.response;
 
 public class EdificeResponse {
 

@@ -1,8 +1,8 @@
 package com.my.admin.app.commerce.handler;
 import com.my.admin.app.commerce.model.document.ConsumedService;
 import com.my.admin.app.commerce.model.document.Edifice;
-import com.my.admin.app.commerce.model.response.EdificeResponse;
-import com.my.admin.app.commerce.model.service.EdificeService;
+import com.my.admin.app.commerce.model.api.response.EdificeResponse;
+import com.my.admin.app.commerce.service.EdificeService;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
